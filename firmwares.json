@@ -1,0 +1,5 @@
+{"firmwares":[  
+    {"type":"wifi", "version_name":"FlexiDisplay v1.4", "link":"https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/FlexiDisplay_Latest_Firmware.bin"},  
+    {"type":"ble", "version_name":"SkyLink 434MHz v1.0", "link":"https://github.com/melihkarakelle/BMK_Firmware_Releases/firmwares/flexidisplay_1_4.bin"},  
+    {"type":"ble", "version_name":"SkyLink 2.4GHz v1.0", "link":"https://github.com/melihkarakelle/BMK_Firmware_Releases/firmwares/flexidisplay_1_4.bin"},  
+]}  
