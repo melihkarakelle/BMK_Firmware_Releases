@@ -9,13 +9,13 @@
 			"type": "ble",
 			"version_name": "SkyLink 434MHz v1.0",
 			"popup_info": "Connect to SkyLink then Press the OK button below",
-			"link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/FlexiDisplay_v22_11_22.bin"
+			"link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/GPS_BLE_Dongle_1_1.zip"
 		},
 		{
 			"type": "ble",
 			"version_name": "SkyLink 2.4GHz v1.0",
 			"popup_info": "Connect to SkyLink then Press the OK button below",
-			"link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/FlexiDisplay_v22_12_22.bin"
+			"link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/GPS_BLE_Dongle_1_1.zip"
 		}
 	]
 }
