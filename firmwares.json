@@ -10,7 +10,7 @@
 			"type": "ble",
 			"uuid": "b5f90001-aa8d-11e3-9046-0002a5d5c51b",
 			"version_name": "SkyLink 434MHz v1.0",
-			"popup_info": "Connect to SkyLink then Press the OK button below",
+			"popup_info": "Press the OK button below, then select the BLE device and click the upload button.",
 			"link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/GPS_BLE_Dongle_1_2.zip"
 		}
 	]
