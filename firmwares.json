@@ -10,7 +10,7 @@
 			"type": "ble",
 			"ble_name_filter": "BMK SkyLink 434",
 			"version_name": "SkyLink 434MHz v1.0.3",
-			"popup_info": "Press the OK button below,\nThe device will be listed\nClick the upload button next to the device name.",
+			"popup_info": "Press the OK button below,\nThe near devices will be listed\nClick the upload button next to the device name.",
 			"link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/GPS_BLE_Dongle_1_3.zip"
 		}
 	]
