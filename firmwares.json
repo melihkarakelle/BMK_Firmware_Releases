@@ -2,7 +2,7 @@
 	"firmwares": [{
 			"type": "wifi",
 			"ble_name_filter": "",
-			"version_name": "FlexiDisplay v23_07_06",
+			"version_name": "FlexiDisplay v23_07_12",
 			"popup_info": "Connect to FlexiDisplay by using WiFi mode then press the OK button below.",
 			"link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/FlexiDisplay_Latest_Firmware.bin"
 		},
