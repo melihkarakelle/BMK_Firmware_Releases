@@ -16,9 +16,9 @@
 		{
 			"type": "ble",
 			"ble_name_filter": "DFU",
-			"version_name": "ThermalDetector v1.2",
+			"version_name": "ThermalDetector v1.1",
 			"popup_info": "Press the OK button below,\nThe near devices will be listed\nClick the upload button next to the device name.",
-			"link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/ThermalDetector_v1.2.zip"
+			"link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/ThermalDetector_v1.1.zip"
 		},
 		
 		{
