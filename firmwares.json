@@ -6,6 +6,14 @@
 			"popup_info": "Connect to FlexiDisplay by using WiFi mode then press the OK button below.",
 			"link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/FlexiDisplay_Latest_Firmware.bin"
 		},
+                {
+			"type": "wifi",
+			"ble_name_filter": "",
+			"version_name": "FlexiDisplay Beta",
+			"popup_info": "Connect to FlexiDisplay by using WiFi mode then press the OK button below.",
+			"link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_test.bin"
+		},
+		
 		{
 			"type": "ble",
 			"ble_name_filter": "BMKDFU",
