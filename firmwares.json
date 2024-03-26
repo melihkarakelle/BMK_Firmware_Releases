@@ -9,9 +9,9 @@
                 {
 			"type": "wifi",
 			"ble_name_filter": "",
-			"version_name": "FlexiDisplay Beta",
+			"version_name": "FlexiDisplay 1.4 ST7567",
 			"popup_info": "Connect to FlexiDisplay by using WiFi mode then press the OK button below.",
-			"link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_test.bin"
+			"link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_1_4_ST7567.bin"
 		},
 		
 		{
