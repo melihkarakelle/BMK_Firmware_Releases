@@ -2,16 +2,16 @@
 	"firmwares": [{
 			"type": "wifi",
 			"ble_name_filter": "",
-			"version_name": "FlexiDisplay v23_07_12",
+			"version_name": "FlexiDisplay v2.0 Nokia",
 			"popup_info": "Connect to FlexiDisplay by using WiFi mode then press the OK button below.",
-			"link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/FlexiDisplay_Latest_Firmware.bin"
+			"link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_Legacy_Nokia_Display/FlexiDisplay_Legacy_NOKIA_Display_Latest_Firmware.bin"
 		},
                 {
 			"type": "wifi",
 			"ble_name_filter": "",
-			"version_name": "FlexiDisplay 1.4 ST7567",
+			"version_name": "FlexiDisplay v2.0 ST7567",
 			"popup_info": "Connect to FlexiDisplay by using WiFi mode then press the OK button below.",
-			"link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_1_4_ST7567.bin"
+			"link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_ST7567_Display/FlexiDisplay_ST7567_Display_Latest_Firmware.bin"
 		},
 		
 		{
