@@ -1,0 +1,27 @@
+{
+	"firmwares": [{
+			"type": "wifi",
+			"ble_name_filter": "",
+			"version_name": "FlexiDisplay v2.0 Nokia",
+			"popup_info": "Connect to FlexiDisplay by using WiFi mode then press the OK button below.",
+			"link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_Legacy_Nokia_Display/FlexiDisplay_Legacy_NOKIA_Display_Latest_Firmware.bin"
+		},
+                {
+			"type": "wifi",
+			"ble_name_filter": "",
+			"version_name": "FlexiDisplay v2.0 ST7567",
+			"popup_info": "Connect to FlexiDisplay by using WiFi mode then press the OK button below.",
+			"link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_ST7567_Display/FlexiDisplay_ST7567_Display_Latest_Firmware.bin"
+		},
+		
+		{
+			"type": "ble",
+			"ble_name_filter": "BMKDFU",
+			"version_name": "SkyLink 434MHz v1.4.0",
+			"popup_info": "Press the OK button below,\nThe near devices will be listed\nClick the upload button next to the device name.",
+			"link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/GPS_BLE_Dongle_1_4.zip"
+		}
+		
+		
+	]
+}
