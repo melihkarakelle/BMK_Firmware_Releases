@@ -3,7 +3,7 @@
     {
       "type": "wifi",
       "ble_name_filter": "",
-      "version_name": "FlexiDisplay v2.0 Nokia",
+      "version_name": "FlexiDisplay v1.0 firmware v2.0 Nokia",
       "popup_info": "Go to Settings > WiFi on your FlexiDisplay and switch the device into WiFi mode. Connect to the FlexiDisplay access point(FD-XXXX) by using the displayed password (BMKS-XXXX), then press OK to start the update for the Nokia display version.",
       "popup_warning": "WARNING: This firmware is only for the Nokia-display FlexiDisplay. Installing the wrong firmware will make the device non-functional. You can identify the Nokia version by the RED charging light glowing BEHIND the LCD screen.",
       "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_Legacy_Nokia_Display/FlexiDisplay_Legacy_NOKIA_Display_Latest_Firmware.bin"
@@ -11,10 +11,18 @@
     {
       "type": "wifi",
       "ble_name_filter": "",
-      "version_name": "FlexiDisplay v2.0 ST7567",
+      "version_name": "FlexiDisplay v1.0 firmware v2.0 ST7567",
       "popup_info": "Go to Settings > WiFi on your FlexiDisplay and switch the device into WiFi mode. Connect to the FlexiDisplay access point(FD-XXXX) by using the displayed password (BMKS-XXXX), then press OK to start the update for the ST7567 display version.",
       "popup_warning": "WARNING: This firmware is only for the ST7567-display FlexiDisplay. Installing the wrong firmware will make the device non-functional. You can identify the ST7567 version by the RED charging LED located NEXT to the USB connector, and by the 'ST7567' marking on the back of the device.",
       "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_ST7567_Display/FlexiDisplay_ST7567_Display_Latest_Firmware.bin"
+    },
+    {
+      "type": "ble",
+      "ble_name_filter": "BMK FD-",
+      "version_name": "FlexiDisplay v2 firmware v2.5",
+      "popup_info": "Press OK below. Nearby devices will appear in the list. Tap the upload button next to the device you want to update.",
+      "popup_warning": "To enter firmware update (DFU) mode, power OFF the device first. Then press and hold the side button, and while holding it, also press and hold the RED button. Keep both buttons pressed for 5 seconds. The LED will start fast blinking, indicating that the device is now in DFU mode. If the update does not start, the device will automatically return to normal mode after about 6 minutes.",
+      "link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/GPS_BLE_Dongle_1_4.zip"
     },
     {
       "type": "ble",
