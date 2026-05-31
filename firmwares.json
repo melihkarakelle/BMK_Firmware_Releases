@@ -36,7 +36,13 @@
 			"popup_info": "Press the OK button below,\nThe near devices will be listed\nClick the upload button next to the device name.",
 			"link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/flexitimer_f1a.zip"
 		},
-		
+	    {
+	      "type": "ble",
+	      "ble_name_filter": "BMK FD-",
+	      "version_name": "FlexiDisplay YELLO firmware v3.0",
+	      "popup_info": "Press OK below. Nearby devices will appear in the list. Tap the upload button next to the device you want to update.",
+	      "link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_YELLO_v3.0.zip"
+	    },
 		{
 			"type": "ble",
 			"ble_name_filter": "DFU",
