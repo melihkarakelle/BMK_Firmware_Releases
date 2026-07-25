@@ -27,10 +27,10 @@
     {
       "type": "ble",
       "ble_name_filter": "BMKDFU",
-      "version_name": "SkyLink 434MHz v1.4.0",
+      "version_name": "SkyLink 434MHz v1.5.0",
       "popup_info": "Press OK below. Nearby devices will appear in the list. Tap the upload button next to the device you want to update.",
       "popup_warning": "To enter firmware update (DFU) mode, power OFF the device first. Then press and hold the side button, and while holding it, also press and hold the RED button. Keep both buttons pressed for 5 seconds. The LED will start fast blinking, indicating that the device is now in DFU mode. If the update does not start, the device will automatically return to normal mode after about 6 minutes.",
-      "link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/GPS_BLE_Dongle_1_4.zip"
+      "link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/GPS_BLE_Dongle_1_5.zip"
     }
   ]
 }
