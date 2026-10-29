@@ -35,6 +35,14 @@
   ],
   "esp_ble_firmwares": [
     {
+      "type": "ble",
+      "ble_name_filter": "BMK FD-",
+      "version_name": "FlexiDisplay YELLO firmware v3.4",
+      "popup_info": "Press OK below. Nearby devices will appear in the list. Tap the upload button next to the device you want to update.",
+      "popup_warning": "To put the device into firmware update (DFU) mode: on Display 1 or 2, hold the joystick centre for 4-10 seconds and release, choose FW UPDATE(DFU) in the Quick Menu and confirm with the RED button. The screen shows FIRMWARE UPDATE MODE / BLE OTA READY. If the menu cannot be reached, power the device off, then hold the joystick centre and press the RED button together to switch it on. Before the update starts, RED cancels and returns to normal mode; if no update starts the device restarts normally after about 2 minutes.",
+      "link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_YELLO_v3.4.zip"
+    },
+    {
       "type": "esp_ble",
       "version_name": "FlexiDisplay v1.0 firmware v3.0 (Bluetooth)",
       "popup_info": "Connect to your FlexiDisplay in the app first. The app picks the firmware for your screen type. When the FlexiDisplay shows PRESS RED TO CONFIRM, press its RED button.",
