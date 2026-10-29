@@ -36,17 +36,17 @@
   "esp_ble_firmwares": [
     {
       "type": "esp_ble",
-      "version_name": "FlexiDisplay v1.0 firmware v2.1 (Bluetooth)",
+      "version_name": "FlexiDisplay v1.0 firmware v3.0 (Bluetooth)",
       "popup_info": "Connect to your FlexiDisplay in the app first. The app picks the firmware for your screen type. When the FlexiDisplay shows PRESS RED TO CONFIRM, press its RED button.",
       "variants": {
         "ST7567": {
-          "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_ST7567_Display/FlexiDisplay_ST7567_v2.1_BLE.bin",
-          "md5": "fb5fa645ac1f05fd975ad1cfca3f0a4f",
+          "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_ST7567_Display/FlexiDisplay_ST7567_v3.0_BLE.bin",
+          "md5": "6bcc8bbedd09084907fdc2083c734334",
           "size": 1508128
         },
         "NOKIA5": {
-          "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_Legacy_Nokia_Display/FlexiDisplay_NOKIA_v2.1_BLE.bin",
-          "md5": "ffd2fd44d90a295f40338e330210ecb9",
+          "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_Legacy_Nokia_Display/FlexiDisplay_NOKIA_v3.0_BLE.bin",
+          "md5": "a25d4afdd73c785ed0ed3757706ce996",
           "size": 1507984
         }
       }
@@ -54,18 +54,18 @@
     {
       "type": "wifi",
       "ble_name_filter": "",
-      "version_name": "FlexiDisplay v1.0 firmware v2.1 ST7567 (WiFi)",
+      "version_name": "FlexiDisplay v1.0 firmware v3.0 ST7567 (WiFi)",
       "popup_info": "Go to Settings > WiFi on your FlexiDisplay and switch the device into WiFi mode. Connect to the FlexiDisplay access point(FD-XXXX) by using the displayed password (BMKS-XXXX), then press OK to start the update for the ST7567 display version.",
       "popup_warning": "WARNING: This firmware is only for the ST7567-display FlexiDisplay. Installing the wrong firmware will make the device non-functional. You can identify the ST7567 version by the RED charging LED located NEXT to the USB connector, and by the 'ST7567' marking on the back of the device.",
-      "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_ST7567_Display/FlexiDisplay_ST7567_v2.1_BLE.bin"
+      "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_ST7567_Display/FlexiDisplay_ST7567_v3.0_BLE.bin"
     },
     {
       "type": "wifi",
       "ble_name_filter": "",
-      "version_name": "FlexiDisplay v1.0 firmware v2.1 Nokia (WiFi)",
+      "version_name": "FlexiDisplay v1.0 firmware v3.0 Nokia (WiFi)",
       "popup_info": "Go to Settings > WiFi on your FlexiDisplay and switch the device into WiFi mode. Connect to the FlexiDisplay access point(FD-XXXX) by using the displayed password (BMKS-XXXX), then press OK to start the update for the Nokia display version.",
       "popup_warning": "WARNING: This firmware is only for the Nokia-display FlexiDisplay. Installing the wrong firmware will make the device non-functional. You can identify the Nokia version by the RED charging light glowing BEHIND the LCD screen.",
-      "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_Legacy_Nokia_Display/FlexiDisplay_NOKIA_v2.1_BLE.bin"
+      "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_Legacy_Nokia_Display/FlexiDisplay_NOKIA_v3.0_BLE.bin"
     }
   ]
 }
