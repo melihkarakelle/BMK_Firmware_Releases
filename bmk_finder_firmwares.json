@@ -37,43 +37,51 @@
     {
       "type": "ble",
       "ble_name_filter": "BMK FD-",
-      "version_name": "FlexiDisplay YELLO firmware v3.5",
+      "version_name": "FlexiDisplay YELLO firmware v3.6",
       "popup_info": "Press OK below. Nearby devices will appear in the list. Tap the upload button next to the device you want to update.",
       "popup_warning": "To put the device into firmware update (DFU) mode: on Display 1 or 2, hold the joystick centre for 4-10 seconds and release, choose FW UPDATE(DFU) in the Quick Menu and confirm with the RED button. The screen shows FIRMWARE UPDATE MODE / BLE OTA READY. If the menu cannot be reached, power the device off, then hold the joystick centre and press the RED button together to switch it on. Before the update starts, RED cancels and returns to normal mode; if no update starts the device restarts normally after about 2 minutes.",
-      "link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_YELLO_v3.5.zip"
+      "link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_YELLO_v3.6.zip"
     },
     {
       "type": "esp_ble",
-      "version_name": "FlexiDisplay v1.0 firmware v3.5 (Bluetooth)",
+      "version_name": "FlexiDisplay v1.0 firmware v3.6 (Bluetooth)",
       "popup_info": "Connect to your FlexiDisplay in the app first. The app picks the firmware for your screen type. When the FlexiDisplay shows PRESS RED TO CONFIRM, press its RED button.",
       "variants": {
         "ST7567": {
-          "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_ST7567_Display/FlexiDisplay_ST7567_v3.5_BLE.bin",
-          "md5": "e417492831961d0f6a2e7bb5b7080bfc",
-          "size": 1530864
+          "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_ST7567_Display/FlexiDisplay_ST7567_v3.6_BLE.bin",
+          "md5": "b7b24603fcaabe8373e82a9ade21900e",
+          "size": 1532192
         },
         "NOKIA5": {
-          "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_Legacy_Nokia_Display/FlexiDisplay_NOKIA_v3.5_BLE.bin",
-          "md5": "251557515273d0c6f045108474b523c2",
-          "size": 1530720
+          "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_Legacy_Nokia_Display/FlexiDisplay_NOKIA_v3.6_BLE.bin",
+          "md5": "e0864a882194982e3b72e3696ecbab0d",
+          "size": 1532048
         }
       }
     },
     {
       "type": "wifi",
       "ble_name_filter": "",
-      "version_name": "FlexiDisplay v1.0 firmware v3.5 ST7567 (WiFi)",
+      "version_name": "FlexiDisplay v1.0 firmware v3.6 ST7567 (WiFi)",
       "popup_info": "Go to Settings > WiFi on your FlexiDisplay and switch the device into WiFi mode. Connect to the FlexiDisplay access point(FD-XXXX) by using the displayed password (BMKS-XXXX), then press OK to start the update for the ST7567 display version.",
       "popup_warning": "WARNING: This firmware is only for the ST7567-display FlexiDisplay. Installing the wrong firmware will make the device non-functional. You can identify the ST7567 version by the RED charging LED located NEXT to the USB connector, and by the 'ST7567' marking on the back of the device.",
-      "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_ST7567_Display/FlexiDisplay_ST7567_v3.5_BLE.bin"
+      "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_ST7567_Display/FlexiDisplay_ST7567_v3.6_BLE.bin"
     },
     {
       "type": "wifi",
       "ble_name_filter": "",
-      "version_name": "FlexiDisplay v1.0 firmware v3.5 Nokia (WiFi)",
+      "version_name": "FlexiDisplay v1.0 firmware v3.6 Nokia (WiFi)",
       "popup_info": "Go to Settings > WiFi on your FlexiDisplay and switch the device into WiFi mode. Connect to the FlexiDisplay access point(FD-XXXX) by using the displayed password (BMKS-XXXX), then press OK to start the update for the Nokia display version.",
       "popup_warning": "WARNING: This firmware is only for the Nokia-display FlexiDisplay. Installing the wrong firmware will make the device non-functional. You can identify the Nokia version by the RED charging light glowing BEHIND the LCD screen.",
-      "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_Legacy_Nokia_Display/FlexiDisplay_NOKIA_v3.5_BLE.bin"
+      "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/With_Legacy_Nokia_Display/FlexiDisplay_NOKIA_v3.6_BLE.bin"
+    },
+    {
+      "type": "ble",
+      "ble_name_filter": "BMKDFU",
+      "version_name": "SkyLink 434MHz v3.6",
+      "popup_info": "Press OK below. Nearby devices will appear in the list. Tap the upload button next to the device you want to update.",
+      "popup_warning": "To enter firmware update (DFU) mode, power OFF the device first. Then press and hold the side button, and while holding it, also press and hold the RED button. Keep both buttons pressed for 5 seconds. The LED will start fast blinking, indicating that the device is now in DFU mode. If the update does not start, the device will automatically return to normal mode after about 6 minutes.",
+      "link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/SkyLink_434_v3.6.zip"
     }
   ]
 }
