@@ -37,42 +37,42 @@
     {
       "type": "ble",
       "ble_name_filter": "BMK FD-",
-      "version_name": "FlexiDisplay YELLO firmware v3.9",
+      "version_name": "FlexiDisplay YELLO firmware v4.0",
       "popup_info": "Press OK below. Nearby devices will appear in the list. Tap the upload button next to the device you want to update.",
       "popup_warning": "To put the device into firmware update (DFU) mode: on Display 1 or 2, hold the joystick centre for 4-10 seconds and release, choose FW UPDATE(DFU) in the Quick Menu and confirm with the RED button. The screen shows FIRMWARE UPDATE MODE / BLE OTA READY. If the menu cannot be reached, power the device off, then hold the joystick centre and press the RED button together to switch it on. Before the update starts, RED cancels and returns to normal mode; if no update starts the device restarts normally after about 2 minutes.",
-      "link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_YELLO_v3.9.zip"
+      "link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_YELLO_v4.0.zip"
     },
     {
       "type": "esp_ble",
-      "version_name": "FlexiDisplay v1.0 firmware v3.9 (Bluetooth)",
+      "version_name": "FlexiDisplay v1.0 firmware v4.0 (Bluetooth)",
       "popup_info": "Connect to your FlexiDisplay in the app first. One firmware for both screen types. When the FlexiDisplay shows PRESS RED TO CONFIRM, press its RED button.",
       "variants": {
         "ST7567": {
-          "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/FlexiDisplay_v3.9_BLE.bin",
-          "md5": "333dea800fb85c39427443b7757dfd1f",
-          "size": 1228400
+          "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/FlexiDisplay_v4.0_BLE.bin",
+          "md5": "5b10c574534336e0e80146420d067a14",
+          "size": 1228608
         },
         "NOKIA5": {
-          "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/FlexiDisplay_v3.9_BLE.bin",
-          "md5": "333dea800fb85c39427443b7757dfd1f",
-          "size": 1228400
+          "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/FlexiDisplay_v4.0_BLE.bin",
+          "md5": "5b10c574534336e0e80146420d067a14",
+          "size": 1228608
         }
       }
     },
     {
       "type": "wifi",
       "ble_name_filter": "",
-      "version_name": "FlexiDisplay v1.0 firmware v3.9 (WiFi)",
+      "version_name": "FlexiDisplay v1.0 firmware v4.0 (WiFi)",
       "popup_info": "Go to Settings > WiFi on your FlexiDisplay and switch the device into WiFi mode. Connect to the FlexiDisplay access point(FD-XXXX) by using the displayed password (BMKS-XXXX), then press OK to start the update. This firmware works on both the Nokia and the ST7567 display versions.",
-      "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/FlexiDisplay_v3.9_BLE.bin"
+      "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/FlexiDisplay_v4.0_BLE.bin"
     },
     {
       "type": "ble",
       "ble_name_filter": "BMKDFU",
-      "version_name": "SkyLink 434MHz v3.9",
+      "version_name": "SkyLink 434MHz v4.0",
       "popup_info": "Press OK below. Nearby devices will appear in the list. Tap the upload button next to the device you want to update.",
       "popup_warning": "To enter firmware update (DFU) mode, power OFF the device first. Then press and hold the side button, and while holding it, also press and hold the RED button. Keep both buttons pressed for 5 seconds. The LED will start fast blinking, indicating that the device is now in DFU mode. If the update does not start, the device will automatically return to normal mode after about 6 minutes.",
-      "link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/SkyLink_434_v3.9.zip"
+      "link": "https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/SkyLink_434_v4.0.zip"
     }
   ]
 }
