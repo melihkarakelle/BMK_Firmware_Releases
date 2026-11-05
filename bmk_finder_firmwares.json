@@ -51,13 +51,13 @@
       "variants": {
         "ST7567": {
           "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/FlexiDisplay_v4.0_BLE.bin",
-          "md5": "dc18eee453064069e8f5a78d65bb6de8",
-          "size": 1233872
+          "md5": "909167fd5d84405a469508d2aec7b925",
+          "size": 1240896
         },
         "NOKIA5": {
           "link": "https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases/raw/main/FlexiDisplay_v4.0_BLE.bin",
-          "md5": "dc18eee453064069e8f5a78d65bb6de8",
-          "size": 1233872
+          "md5": "909167fd5d84405a469508d2aec7b925",
+          "size": 1240896
         }
       }
     },
