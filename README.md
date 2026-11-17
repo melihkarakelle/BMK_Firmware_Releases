@@ -10,9 +10,9 @@ All three hand units share one version number since v3.6.
 
 | Device | Version | File | Update over |
 |---|---|---|---|
-| FlexiDisplay YELLO (nRF52832) | **v4.0** | [FlexiDisplay_YELLO_v4.0.zip](https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_YELLO_v4.0.zip) | Bluetooth (DFU) |
-| SkyLink 434 MHz | **v4.0** | [SkyLink_434_v4.0.zip](https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/SkyLink_434_v4.0.zip) | Bluetooth (DFU) |
-| FlexiDisplay (original, ESP32) | **v4.0** | in [FlexiDisplay-Firmware-Releases](https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases) | Bluetooth or WiFi |
+| FlexiDisplay YELLO (nRF52832) | **v4.1** | [FlexiDisplay_YELLO_v4.1.zip](https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_YELLO_v4.1.zip) | Bluetooth (DFU) |
+| SkyLink 434 MHz | **v4.1** | [SkyLink_434_v4.1.zip](https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/SkyLink_434_v4.1.zip) | Bluetooth (DFU) |
+| FlexiDisplay (original, ESP32) | **v4.1** | in [FlexiDisplay-Firmware-Releases](https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases) | Bluetooth or WiFi |
 | ThermalHunter | v1.5 | [ThermalHunter_v1.5.zip](https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/ThermalHunter_v1.5.zip) | Bluetooth (DFU) |
 
 FlexiTimer firmware and settings forms live in [FlexiTimer_Files](https://github.com/melihkarakelle/FlexiTimer_Files).
@@ -42,6 +42,17 @@ Nearby units in update mode appear in the app's list; tap the upload button next
 
 ## Version history
 
+### v4.1 — all three hand units (November 2026)
+- **Beacon selection shared with BMK FlyMate:** pick a beacon on the app's map and the FlexiDisplay follows it
+  (SELECTED screen); pick one on the unit (BEACON SELECT, QR page, antenna kiss) and the app follows. When the app
+  connects it selects the unit's last beacon, so it is ready at once.
+- **SkyLink 434:** remembers the beacon selected in the app and sends its 2Way / FlexiTimer return link only to that
+  beacon (and to the 2Way beacon set up from it) — it no longer answers every FlexiTimer on the channel.
+- **FlexiDisplay YELLO and original:** GPS accuracy (Q) from the receiver's own error estimate, no position drift in
+  GPS low power, steadier GPS reception (YELLO).
+- Use together with the latest AltiLoc 2Way beacon and FlexiTimer firmware, which accept a return-link message only
+  with their own RDT code: another flyer's hand unit can no longer turn your beacon's power down.
+
 ### v4.0 — FlexiDisplay YELLO
 - Compass: tilt compensation, three-turn calibration (flat, upright, on its side); the arrow also works with the unit held upright.
 - FIND devices from the app.
@@ -62,6 +73,7 @@ Nearby units in update mode appear in the app's list; tap the upload button next
 ### Earlier releases
 | Device | Version | Date | File |
 |---|---|---|---|
+| FlexiDisplay YELLO / SkyLink 434 | v4.0 | 2026-11 | replaced by v4.1 |
 | FlexiDisplay YELLO | v3.3 | 2026-10 | FlexiDisplay_YELLO_v3.3.zip |
 | FlexiDisplay YELLO | v3.2 | 2026-09 | FlexiDisplay_YELLO_v3.2.zip |
 | FlexiDisplay YELLO | v3.1 | 2026-07 | FlexiDisplay_YELLO_v3.1.zip |
