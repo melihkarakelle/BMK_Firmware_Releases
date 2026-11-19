@@ -10,7 +10,7 @@ All three hand units share one version number since v3.6.
 
 | Device | Version | File | Update over |
 |---|---|---|---|
-| FlexiDisplay YELLO (nRF52832) | **v4.11** | [FlexiDisplay_YELLO_v4.11.zip](https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_YELLO_v4.11.zip) | Bluetooth (DFU) |
+| FlexiDisplay YELLO (nRF52832) | **v4.12** | [FlexiDisplay_YELLO_v4.12.zip](https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_YELLO_v4.12.zip) | Bluetooth (DFU) |
 | SkyLink 434 MHz | **v4.11** | [SkyLink_434_v4.11.zip](https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/SkyLink_434_v4.11.zip) | Bluetooth (DFU) |
 | FlexiDisplay (original, ESP32) | **v4.11** | in [FlexiDisplay-Firmware-Releases](https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases) | Bluetooth or WiFi |
 | ThermalHunter | v1.5 | [ThermalHunter_v1.5.zip](https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/ThermalHunter_v1.5.zip) | Bluetooth (DFU) |
@@ -41,6 +41,10 @@ FlexiTimer firmware and settings forms live in [FlexiTimer_Files](https://github
 Nearby units in update mode appear in the app's list; tap the upload button next to yours.
 
 ## Version history
+
+### v4.12 — FlexiDisplay YELLO (November 2026)
+- Settings are saved again: changes made in the menus or from the app (RDT code, channel, names, last beacon and
+  position at power off) could be lost after switching the unit off. Please update if you use v4.11.
 
 ### v4.11 — all three hand units (November 2026)
 - **RDT code B1xxxx or B2xxxx:** the RDT CODE menu (YELLO, original FlexiDisplay) now lets you choose 1 or 2 after the
@@ -79,6 +83,7 @@ Nearby units in update mode appear in the app's list; tap the upload button next
 ### Earlier releases
 | Device | Version | Date | File |
 |---|---|---|---|
+| FlexiDisplay YELLO | v4.11 | 2026-11 | replaced by v4.12 |
 | FlexiDisplay YELLO / SkyLink 434 | v4.1 | 2026-11 | replaced by v4.11 |
 | FlexiDisplay YELLO / SkyLink 434 | v4.0 | 2026-11 | replaced by v4.1 |
 | FlexiDisplay YELLO | v3.3 | 2026-10 | FlexiDisplay_YELLO_v3.3.zip |
