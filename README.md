@@ -10,7 +10,7 @@ All three hand units share one version number since v3.6.
 
 | Device | Version | File | Update over |
 |---|---|---|---|
-| FlexiDisplay YELLO (nRF52832) | **v4.12** | [FlexiDisplay_YELLO_v4.12.zip](https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_YELLO_v4.12.zip) | Bluetooth (DFU) |
+| FlexiDisplay YELLO (nRF52832) | **v4.13** | [FlexiDisplay_YELLO_v4.13.zip](https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/FlexiDisplay_YELLO_v4.13.zip) | Bluetooth (DFU) |
 | SkyLink 434 MHz | **v4.11** | [SkyLink_434_v4.11.zip](https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/SkyLink_434_v4.11.zip) | Bluetooth (DFU) |
 | FlexiDisplay (original, ESP32) | **v4.11** | in [FlexiDisplay-Firmware-Releases](https://github.com/melihkarakelle/FlexiDisplay-Firmware-Releases) | Bluetooth or WiFi |
 | ThermalHunter | v1.5 | [ThermalHunter_v1.5.zip](https://github.com/melihkarakelle/BMK_Firmware_Releases/raw/main/ThermalHunter_v1.5.zip) | Bluetooth (DFU) |
@@ -41,6 +41,20 @@ FlexiTimer firmware and settings forms live in [FlexiTimer_Files](https://github
 Nearby units in update mode appear in the app's list; tap the upload button next to yours.
 
 ## Version history
+
+### v4.13 — FlexiDisplay YELLO (November 2026)
+- **Spoken alerts** from the unit's buzzer: signal lost / back, GPS fixed / lost, beacon GPS fixed / lost, battery
+  low / critical, beacon battery low, and "Yello on / off" at switch on and off. Settings → DEVICE → **ALERTS** chooses
+  VOICE (default) or MELODY (the tones of older firmware).
+- **CONTRAST** setting back in Settings → DEVICE (−5 to +5, default 0).
+- **Flight recorder:** up to 100 flights, newest first; when the memory is full the oldest flight is overwritten.
+  Switching off while recording saves the flight; after a flat battery the flight is closed at the next switch-on.
+  Flights saved with older firmware are not kept by this update: download them first.
+- **Settings** are kept on the flash chip in two copies (safe if the power fails while saving); your current settings
+  are carried over by the update.
+- **The clock keeps running while the unit is off**, so flight dates are right before the GPS has a fix.
+- FACTORY RESET now also erases the flights. SEARCH MODE OFF message no longer wraps.
+- Manual: FlexiDisplay YELLO manual for v4.13 (English, Español, Français, Deutsch) on bmks.co.uk.
 
 ### v4.12 — FlexiDisplay YELLO (November 2026)
 - Settings are saved again: changes made in the menus or from the app (RDT code, channel, names, last beacon and
@@ -83,6 +97,7 @@ Nearby units in update mode appear in the app's list; tap the upload button next
 ### Earlier releases
 | Device | Version | Date | File |
 |---|---|---|---|
+| FlexiDisplay YELLO | v4.12 | 2026-11 | replaced by v4.13 |
 | FlexiDisplay YELLO | v4.11 | 2026-11 | replaced by v4.12 |
 | FlexiDisplay YELLO / SkyLink 434 | v4.1 | 2026-11 | replaced by v4.11 |
 | FlexiDisplay YELLO / SkyLink 434 | v4.0 | 2026-11 | replaced by v4.1 |
